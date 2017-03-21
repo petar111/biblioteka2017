@@ -29,7 +29,7 @@ public class Biblioteka implements BibliotekaInterfejs {
 	public LinkedList<Knjiga> vratiSveKnjige() {
 		return knjige;
 	}
-
+// javan komentar
 	@Override
 	public LinkedList<Knjiga> pronadjiKnjigu(Autor a, long isbn, String naslov, String izdavac) {
 
