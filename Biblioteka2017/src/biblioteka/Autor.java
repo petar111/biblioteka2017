@@ -12,6 +12,7 @@ public class Autor {
 	@Override
 	public int hashCode() {
 		final int prime = 31;
+		int aaa;
 		int result = 1;
 		result = prime * result + ((ime == null) ? 0 : ime.hashCode());
 		result = prime * result + ((prezime == null) ? 0 : prezime.hashCode());
